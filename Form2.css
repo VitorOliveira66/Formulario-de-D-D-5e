@@ -1,0 +1,38 @@
+#titulo{
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 25%;
+
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1em;
+    color: #000000;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 25%;
+    justify-content: center;
+    padding: 1%;
+
+}
+
+input, select, textarea{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1em;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+button{
+    background-color: #721d00;
+    color:#ffe0d5;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 36%;
+}
+#historia{
+    margin-left: 25%;
+
+}
