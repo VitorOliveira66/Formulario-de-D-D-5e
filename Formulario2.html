@@ -60,16 +60,20 @@
     </header>
     
     <main>
-        <h3 class="subtitulo">Atributos e Habilidades</h3>
-       
-           <div class="atributos">
+       <div class="subtitulo">
+        <h3>Atributos e Habilidades</h3>
+       </div>
+
+           <div class="forca">
            <fieldset>
                <label>Força</label>
                <input type="number" name="forca" id="forca" min="1" max="20"><br>
                <input type="checkbox" id="for1" name="atletismo">
                <label>Atletismo</label>
            </fieldset>
+           </div>
        
+           <div class="destreza">
            <fieldset>
                <label>Destreza</label>
                <input type="number" name="destreza" id="destreza" min="1" max="20"><br>
@@ -80,12 +84,16 @@
                <input type="checkbox" id="dex3" name="prestidigitacao">
                <label>Prestidigitação</label>
            </fieldset>
-       
+           </div>
+
+           <div class="const">      
            <fieldset>
                <label>Cosntituição</label>
                <input type="number" name="constituicao" id="constituicao" min="1" max="20">
            </fieldset>
+           </div>
        
+           <div class="inteligencia">
            <fieldset>
                <label>Inteligencia</label>
                <input type="number" id="inteligencia" name="inteligencia" min="1" max="20"><br>
@@ -100,7 +108,9 @@
                <input type="checkbox" id="int5" name="religiao">
                <label>Religião</label>
            </fieldset>
+           </div>
            
+           <div class="sabedoria">
            <fieldset>
                <label>Sabedoria</label>
                <input type="number" id="sabedoria" name="sabedoria" min="1" max="20"><br>
@@ -115,7 +125,9 @@
                <input type="checkbox" id="sab4" name="sobrevivencia">
                <label>Sobrevivência</label>
            </fieldset>
+           </div>
        
+           <div class="carisma">
            <fieldset>
                <label>Carisma</label>
                <input type="number" id="carisma" name="carisma" min="1" max="20"><br>
@@ -133,7 +145,9 @@
 
     <aside>
         <div class="historia">
-        <label>Historia</label><br>
+        <label>Historia</label>
+        </div>
+        <div class="caixa">
         <textarea row="10" id="historia" nome="historia"></textarea>
         </div>
     </aside>
